@@ -26,8 +26,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@docusaurus/utils": "^2.0.0-alpha.73",
-    "@docusaurus/utils-validation": "^2.0.0-alpha.73",
+    "@docusaurus/utils": "2.0.0-alpha.73",
+    "@docusaurus/utils-validation": "2.0.0-alpha.73",
     "@easyops-cn/autocomplete.js": "^0.38.1",
     "cheerio": "^1.0.0-rc.3",
     "clsx": "^1.1.1",
