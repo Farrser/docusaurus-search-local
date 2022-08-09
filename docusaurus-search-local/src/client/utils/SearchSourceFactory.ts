@@ -38,7 +38,7 @@ export function SearchSourceFactory(
                 query.term(item.value, {
                   wildcard: item.wildcard,
                   presence: item.presence,
-                  editDistance: 2,
+                  editDistance: 1,
                 });
               }
             })

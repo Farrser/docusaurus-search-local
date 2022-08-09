@@ -16,7 +16,7 @@ export function tokenize(text: string, language: string[]): string[] {
       .map((token) => token.toString());
   }
 
-  let regExpMatchWords = /[^-\s]+/g;
+  let regExpMatchWords = /[^\s]+/g;
 
   // Especially optimization for `zh`.
   if (language.includes("zh")) {
