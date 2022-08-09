@@ -64,6 +64,8 @@ export function buildIndex(
         this.tokenizer = (lunr as any).zh.tokenizer;
       }
 
+      this.tokenizer.separator = /\s+/;
+
       this.ref("i");
       this.field("t");
       this.metadataWhitelist = ["position"];
